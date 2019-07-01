@@ -6,5 +6,10 @@ pipeline {
                 sh './gradlew build'
             }
         }
+        stage("Deploy"){
+            steps{
+                echo 'Deploying to server 1'
+            }
+        }
     }
 }
