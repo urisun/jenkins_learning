@@ -8,7 +8,7 @@ pipeline {
         }
         stage("Deploy"){
             steps{
-                echo 'Deploying to server 1'
+                echo 'Deploying to server 2'
             }
         }
     }
